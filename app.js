@@ -40,7 +40,7 @@
         $scope.totalItemsBought = totalItemsBought;
         $scope.boughtMsg = '';
         $scope.toBuyMsg = 'Nothing bought yet.';
-
+        
         $scope.checkoff = function () {
             console.log('clicked on item: ' + this.$index);
 
